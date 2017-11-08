@@ -16,4 +16,4 @@ r2 = s.post('https://millenium.itesm.mx/patroninfo*spi/%s/items' % r.url[46: 52]
     'currentsortorder': 'current_checkout',
     'renewall': 'SI'
 })
-print r2.text
+print r2.text.encode('utf-8')
