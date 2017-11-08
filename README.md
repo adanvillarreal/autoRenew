@@ -10,4 +10,4 @@ python autoRenew.py name code pin
 As entered in https://millenium.itesm.mx/patroninfo*spi 
 
 ## Suggestions
-Set up the script to run in a cron job.
+Set up a cron job to run the script.
